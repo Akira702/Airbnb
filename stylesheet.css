@@ -1,0 +1,297 @@
+header{
+    background-image: url(background_img.jpg);
+    background-size: cover;
+    height: 275px;
+}
+
+header h1{
+    padding: 50px 25px 10px;
+    color: aliceblue;
+    text-align: left;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+header i{
+    padding: 28px;
+    font-size: 38px;
+    color: aliceblue;
+    width: 100%;
+}
+
+.container{
+    padding: 30px 22px 0 22px;
+}
+
+.top .money{
+    display: none;
+}
+
+.container .money h1{
+    display: none;
+}
+
+.money h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #484848;
+}
+
+.money input{
+    width: 100%;
+}
+
+.total{
+    font-size: 45px;
+    font-family: 'Markazi Text', serif;
+    font-weight: bold;
+}
+
+.total span{
+    font-size: 15px;
+    color: #696969;
+}
+
+.total i{
+    color: #696969;
+    font-size: 15px;
+}
+
+
+.money .btn{
+    width: 100%;
+    background-color: #FF5A5F;
+    border: none;
+    height: 47px;
+    border-radius: 7px;
+    margin-top: -23px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 25px;
+    padding-top: 12px;
+}
+
+.reason h2{
+    color: #595959;
+    font-size: 24px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.reason p{
+    color: #8B8C8B;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.details h1{
+    font-weight: bold;
+    margin-top: 80px;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+.details h1::before{
+    content: '';
+    display: block;
+    background-color: #767676;
+    height: 2.5px;
+    width: 60px;
+    margin-bottom: 33px;
+}
+
+.details i{
+    font-size: 50px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+.details h2{
+    font-size: 23px;
+    font-weight: bold;
+    color: #484848;
+    padding-bottom: 10px;
+}
+
+.details p{
+    color: #8B8C8B;
+    margin-bottom: 25px;
+}
+
+.details .picture1{
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+}
+
+.details .mark1{
+    height: 20px;
+    width: 20px;
+}
+
+.details h3{
+    font-size: 30px;
+}
+
+.details .comment{
+    color: #484848;
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.details .freetalk{
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.details .btn{
+    width: 220px;
+    border: 2px solid #484848;
+    height: 47px;
+    border-radius: 7px;
+    color: #484848;
+    font-weight: bold;
+    display: block;
+    margin-top: -13px;
+    padding-top: 10px;
+}
+
+.details .explanation{
+    margin-top: 40px;
+    line-height: 27px;
+}
+
+.details .check{
+    padding-top: 40px;
+}
+
+.details .fa-check-square{
+    color: #008389;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.details .number{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.details .green{
+    margin-top: 40px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.details .question ul a::after{
+    content: '';
+    display: block;
+    background-color: #EBEBEB;
+    height: 2px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.details .question ul a{
+    color: #008389;
+}
+
+.details .hosting h2{
+    margin-top: 65px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.details .hosting ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.details .hosting li{
+    border: solid 1px #c0c0c0;
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+
+}
+
+.details .hosting a{
+    display: flex;
+    align-items: center;
+}
+
+.details .hosting img{
+    width: 77px;
+    height: 77px;
+    vertical-align: bottom;
+}
+
+.text-line{
+    display: inline;
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+.text-line h3{
+    font-size: 13px;
+    color: #484848;
+    font-weight: bold;
+}
+
+.text-line p{
+    font-size: 15px;
+}
+
+.details .hosting figure{
+    margin-bottom: 0px;
+}
+
+.income{
+    margin-top: 80px;
+    background-image: url(background_img2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 376px;
+}
+
+.income h2{
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 60px 0px 0 30px;
+    font-size: 37px;
+}
+
+.income .btn{
+    background-color: white;
+    color: #484848;
+    margin:30px 0 0 30px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.footer2{
+    display: none;
+}
+
+.last{
+    padding: 0 22px 0 22px;
+    margin-top: 50px;
+}
+
+.last a{
+    display: flex;
+}
+
+.last i{
+    margin-top: 47px;
+    color: #767676;
+    font-size: 25px;
+}
+
+.last p{
+    color: #767676;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 20px;
+}
+
