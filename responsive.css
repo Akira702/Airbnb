@@ -1,0 +1,301 @@
+@media(min-width:768px){
+
+    header{
+        height: 313px;
+    }
+
+    header h1{
+        padding: 110px 90px 0 90px;
+        font-size: 40px;
+    }
+
+    .container{
+        padding: 30px 60px 0 60px;
+    }
+
+    .money h2{
+        font-size: 15px;
+    }
+
+    input{
+        padding: 10px;
+    }
+
+    .text p{
+        display: inline-flex;
+    }
+
+    .text .text2{
+        width: 350px;
+    }
+
+    .text .text3{
+        width: 230px;
+        margin-left: 15px;
+    }
+
+    .money .total{
+        font-size: 60px;
+        margin-top: -20px;
+    }
+
+    .reason{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .details{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .details h1{
+        text-align: center;
+    }
+
+    .details .man1{
+        display: inline-flex;
+        padding: 0;
+    }
+
+    .details .man1 .picture1{
+        width: 100%;
+    }
+
+    .details .man1 .column{
+        padding-top: 110px;
+        flex-direction: column;
+    }
+
+    .man1 .mark1{
+        margin-top: 75px;
+        margin-left: 20px;
+    }
+    .column .comment{
+        font-size: 15px;
+    }
+
+    .numbers{
+        display: inline-flex;
+    }
+
+    .numbers .column2{
+        flex-direction: column;
+        width: 33%;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .hosting ul{
+        padding: 0;
+        display: inline-flex;
+    }
+
+    .details .hosting img{
+        width: 175px;
+        height: 100px;
+        justify-content: space-between;
+    }
+
+    .details .hosting li{
+        border:none;
+        box-shadow: none;
+    }
+
+    .hosting a{
+        flex-direction: column;
+    }
+
+    .hosting p{
+        font-size: 13px;
+    }
+
+    .income{
+        padding-left: 90px;
+        padding-right: 470px;
+    }
+
+    .footer2 {
+        padding: 100px 0 0 30px;
+    }
+
+    .footer2 h4{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .footer2 ul{
+        padding: 0;
+        list-style-type: none;
+        
+    }
+
+    .footer2 li{
+        color: #767676;
+        font-size: 15px;
+    }
+
+    .sub-footer{
+        display: inline-flex;
+        flex-direction: column;
+        width: 24%;
+    }
+
+    .last::before{
+        content: '';
+        display: block;
+        background-color: #c0c0c0;
+        height: 1px;
+        width: 100%;
+    }
+
+    .last{
+        margin: 0;
+    }
+
+}
+
+
+
+
+@media(min-width:1130px){
+
+    header{
+        background-image: none;
+        height: 80px;
+        background-color: black;
+    }
+
+    header h1{
+        display: none;
+    }
+
+    .top{
+        width: auto;
+        display: block;
+        background-image: url(background_img.jpg);
+        height: 643px;
+        background-size: cover;
+    }
+
+    .top .money{
+        display: inline-block;
+        background-color: white;
+        border-radius: 5px;
+        width: 461px;
+        height: 483px;
+        padding: 30px 30px 0;
+        margin: 80px 100px 80px 0px;
+        float: right;
+    }
+
+    .container .money{
+        display: none;
+    }
+
+    .money h1{
+        columns: #333333;;
+        text-align: left;
+        font-size: 38px;
+        line-height: 40px;
+        font-weight: bold;
+    }
+
+    .money h2{
+        padding-top: 20px;
+    }
+
+    .top .money .text p{
+        display: inline-flex;
+    }
+
+    .top .money .text .text2{
+        width: 220px;
+    }
+
+    .top .money .text .text3{
+        width: 160px;
+        margin-left: 15px;
+    }
+
+    .top .money .total{
+        font-size: 60px;
+    }
+
+    .container{
+        padding: 15px 5px 0 5px;
+    }
+
+    .reason{
+        display: inline-flex;
+
+    }
+
+    .reason .column-reason{
+        flex-direction: column;
+    }
+
+    .reason .column-reason:not(:nth-last-child(-n+1)){
+    margin-right: 120px;    
+    }
+
+    .step3{
+        display: inline-flex;
+    }
+
+    .step3 .step3-column{
+        flex-direction: column;
+        width: 270px;
+    }
+
+    .step3 .step3-column:not(:nth-last-child(-n+1)){
+        margin-right: 40px;
+    }
+
+    .column .comment{
+        font-size: 30px;
+    }
+
+    .reparation{
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .reparation .check{
+        flex-direction: column;
+        width: 600px;
+    }
+
+    .reparation .reparation-left{
+        flex-direction: column;
+        width:600px;
+    }
+
+    .reparation .reparation-left:not(:nth-last-child(-n+1)){
+        margin-right: 100px;
+    }
+
+    .numbers .column2:not(:nth-last-child(-n+1)){
+        margin-right: 100px;
+    }
+
+    .numbers .column2{
+        padding: 0 50px 0;
+    }
+
+    .question ul{
+        text-align: center;
+    }
+
+    .details .hosting a{
+        width: 333px;
+        height: 172px;
+        flex-direction: column;
+    }
+
+
+    .hosting p{
+        font-size: 13px;
+    }
+
+}
